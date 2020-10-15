@@ -1,0 +1,390 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color : #fff3ff;
+}
+#vimeo{
+	margin: 20px 5px 0px 45px;
+	border : 5px hidden none;
+	padding: 2px;
+	font-size : 35px;
+	font-style: oblique;
+	color : black;
+	background-color: hidden;
+	float: left;
+	cursor: pointer;
+}
+#vimeo:HOVER {
+	margin: 20px 5px 0px 45px;
+	border : 5px hidden none;
+	padding: 2px;
+	font-size : 35px;
+	font-style: oblique;
+	color : #6acfff;
+	background-color: hidden;
+	float: left;
+	cursor: pointer;
+}
+#join{
+	width : 95px;
+	height : 25px;
+	margin: 26px 5px 0px 20px;
+	border-radius : 10px;
+	border-color:hidden;
+	border-style:ridge;
+	padding: 5px;
+	font-size : 20px;
+	font-style: normal;
+	color : black;
+	background-color: #fff3ff;
+	float: left;
+	cursor: pointer;
+	vertical-align: inherit;
+	text-align : center;
+}
+#join:HOVER {
+	width : 95px;
+	height : 25px;
+	margin: 26px 10px 0px 20px;
+	border-color:black;
+	border-style:ridge;
+	padding: 5px;
+	font-size : 20px;
+	font-style: normal;
+	color : #404040;
+	background-color: #fff3ff;
+	float: left;
+	cursor: pointer;
+	vertical-align: inherit;
+	text-align : center;
+}
+ #register {
+	margin: 30px 20px 0px 10px;
+	border : 7px hidden none;
+	padding: 3px;
+	color : black;
+	background-color: hidden;
+	float: left;
+	text-align : center;
+	cursor: pointer;
+}
+
+.dropbtn {
+  margin :15px 10px 0px 5px;
+  border : 7px hidden none;
+  padding: 16px;
+  font-size: 16px;
+  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {background-color: #ffffff;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: none;}
+
+
+
+
+
+#price {
+	margin: 30px 10px 0px 10px;
+	border : 7px hidden none;
+	padding: 3px;
+	color : black;
+	background-color: hidden;
+	float: left;
+	text-align : center;
+	cursor: pointer;
+}
+
+
+
+
+.new{
+	width : 95px;
+	height : 25px;
+	margin: 20px 30px 0px 20px;
+	border-color:#000084;
+	border-style:ridge;
+	padding: 5px;
+	font-size : 20px;
+	font-style: normal;
+	color : white;
+	background-color: #00001c;
+	float : right;
+	cursor: pointer;
+	vertical-align: inherit;
+	text-align : center;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+.dropdown-content1 {
+  display: none;
+  background-color: white;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content1 a:hover {background-color: #ffffff;}
+
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+.dropdown1:hover .dropbtn {background-color: none;}
+
+
+#search{
+	width : 150px;
+	height : 30px;
+	margin: 30px 15px 0px 20px;
+	border-color:none;
+	border-style:none;
+	padding: 5px;
+	font-size : 20px;
+	font-style: normal;
+	color : white;
+	background-color: white;
+	float : right;
+	cursor: pointer;
+	vertical-align: inherit;
+	text-align : center;
+}
+
+#search:FOCUS{
+	width : 250px;
+	height : 30px;
+	margin: 30px 15px 0px 20px;
+	border-color:none;
+	border-style:none;
+	padding: 5px;
+	font-size : 20px;
+	font-style: normal;
+	color : white;
+	background-color: white;
+	float : right;
+	cursor: pointer;
+	vertical-align: inherit;
+	text-align : center;
+}
+
+.main{
+	font-size : 1.6em;
+	text-align : center;
+	cursor: pointer;
+}
+.main1{
+	text-align : center;
+	font-size :25px;
+	cursor: pointer;
+}
+.center{
+	margin :0px auto;
+	display:block;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width:160px;
+    background-color: #d700d7;
+    cursor: pointer;
+}
+.cen{
+	color: black;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.pic1{
+     width: 50% ;
+     height: auto;
+     display: block;
+     float: left;
+     cursor: pointer;
+}
+.text1{
+	 display: block;
+	 width: auto;
+     height: auto;
+     margin: 500px 0px 0px 275px;
+     font-size: 15px;
+     float: left;
+     cursor: pointer;
+}
+.text2{
+	 margin :50px 500px 0px 50px;
+	 border :0px none none;
+	 padding :20px 0px 0px 0px;
+     float: left;
+     text-align: left,center;
+     cursor: pointer;
+}
+.pp{
+	 display: block;
+	 margin : 0px 0px 0px 0px;
+	 width: 900px;
+     height: auto;
+     float: right;
+     cursor: pointer;
+}
+
+
+.pic3{
+	 margin :1000px 0px 0px 0px;
+     width: 50% ;
+     height: auto;
+     cursor: pointer;
+     display: block;
+     float: left;
+}
+.text3{
+	 display: block;
+	 width: auto;
+     height: auto;
+     margin: 500px 0px 0px 275px;
+     font-size: 15px;
+     float: left;
+     cursor: pointer;
+}
+.column {
+	float: left;
+	cursor: pointer;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	cursor: pointer;
+}
+
+
+.text4{
+	 margin :50px 500px 0px 50px;
+	 border :0px none none;
+	 padding :20px 0px 0px 0px;
+     float: left;
+     text-align: left,center;
+     cursor: pointer;
+}
+.pp2{
+	 display: block;
+	 margin : 0px 0px 0px 0px;
+	 width: 900px;
+     height: auto;
+     float: right;
+     cursor: pointer;
+}
+.try{
+	text-align: center;
+	margin-top: 190em;
+	cursor: pointer;
+}
+.center1{
+	margin:0px auto; 
+	display:block;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width:140px;
+    background-color: rgb(15, 174, 241);
+    cursor: pointer;
+}
+.column {
+	width:33.3%;
+	height:auto;
+	float: left;
+	cursor: pointer;
+}
+
+.row::after {
+	width:100%
+	content: "";
+	clear: both;
+	display: table;
+	cursor: pointer;
+}
+.copy{
+	height:600px;
+	width:100%;
+	background: #1e3c3c;
+	float: left;
+	cursor: pointer;
+}
+#vimeo1{
+	margin: 30px 5px 0px 150px;
+	border : 5px hidden none;
+	padding: 2px;
+	font-size : 35px;
+	font-style: oblique;
+	color : white;
+	background-color: hidden;
+	float: left;
+	cursor: pointer;
+}
+#vimeo1:HOVER {
+	margin: 30px 5px 0px 150px;
+	border : 5px hidden none;
+	padding: 2px;
+	font-size : 35px;
+	font-style: oblique;
+	color : #6acfff;
+	background-color: hidden;
+	float: left;
+	cursor: pointer;
+}
+.first{
+	width:300px;
+	float: left;
+	cursor: pointer;
+}
+.second{
+	width: 7%;
+	height:auto;
+	margin: 30px 5px 0px 150px;
+	cursor: pointer;
+}
+.a1{
+	color: white;
+	margin: 5px 0px 0px 0px;
+	cursor: pointer;
+}
+.copy1{
+	border-style:solid;
+	border-color:white #1e3c3c #1e3c3c #1e3c3c;
+	height:100px;
+	width:100%;
+	background: #1e3c3c;
+	float: left;
+	cursor: pointer;
+}
